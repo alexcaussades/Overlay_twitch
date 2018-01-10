@@ -1,0 +1,42 @@
+
+@font-face {
+    font-family: 'impactregular';
+    src: url('../fonts/unicode.impact-webfont.woff2') format('woff2'),
+         url('../fonts/unicode.impact-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html,
+body {
+  padding: 25px;
+  margin: 0;
+  /*background: url('../images/background.jpg') !important;*/
+  background: transparent;
+}
+
+body {
+  font-family: impactregular;
+  background: rgba(0, 0, 0, 0);
+}
+
+.subscribers {
+  color: #FFFFFF;
+  text-shadow: 1.3px 0 0 black, 0 1.3px 0 black, 0 -1.3px 0 black, -1.3px 0 0 black, 1.3px 1.3px 0 black, 1.3px -1.3px 0 black, -1.3px 1.3px 0 black, -1.3px -1.3px 0 black;
+  font-size: 35px;
+}
+
+.donators {
+  color: #FFFFFF;
+  text-shadow: 1.3px 0 0 black, 0 1.3px 0 black, 0 -1.3px 0 black, -1.3px 0 0 black, 1.3px 1.3px 0 black, 1.3px -1.3px 0 black, -1.3px 1.3px 0 black, -1.3px -1.3px 0 black;
+  font-size: 35px;
+}
+
+.icon {
+  margin-right: 10px;
+}
+
+.explora {
+  margin-left: 1500px;
+  margin-top: -100PX;
+  }
